@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Calculadora Simplex</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container caixa">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="foto-perfil" src="img/imagem2.png" alt="">
+                </div>
+
+                <div class="col-lg-6">
+                    <h1 class="titulo-nome">Calculadora Simplex</h1>
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <section class="projeto">
+            <div class="container">
+                <div class="divMain">
+
+                    <div>
+                        <input id="num_variavies" onfocusout="deixaInteiros(this)" class="campo"
+                            placeholder="Número de varíaveis de decisão (X1, X2, X3 ...)" />
+                    </div>
+
+                    <div>
+                        <input id="num_restricoes" onfocusout="deixaInteiros(this)" class="campo"
+                            placeholder="Número de restrições do problema" />
+                    </div>
+
+                    <button id="gera_restricoes" class="btn"
+                        onclick="gerarRestricoes(event)">Continuar</button>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="tabela">
+            <div id="valores_div">
+                <form id="valores_form" class="form-group"></form>
+            </div>
+            <div class="container-fluid" id="novas_restricoes"></div>
+            <br />
+            <div class="container" id="calculos"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="projeto">
+        <div class="container">
+            <footer>
+                <address>
+                    <strong>Programação Matemática</strong><br>
+                    Jackson Felipe Magnabosco<br>
+                    URI, Erechim - <strong>2020</strong><br>
+                    <address>Email:jacksonmagnabosco@hotmail.com</address><br>
+                </address>
+            </footer>
+        </div>
+    </section>
+
+
+
+    <script src="js/simplex.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 Programa para matéria de Programação Matemática
 ===============================================
 
-- Implementação de uma calculadora simplex finito para a disciplina de Programação Matemática.
+- Implementação de uma calculadora simplex para a disciplina de Programação Matemática.
 
 - Acesso em: https://jacksonn455.github.io/Analizador-Lexico/
 

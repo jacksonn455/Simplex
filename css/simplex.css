@@ -1,0 +1,27 @@
+p{
+    text-align: center;
+}
+.inline-div{
+    display: inline-block;
+}
+.p-modif{
+    margin-left: 3rem;
+}
+.alinhar-form{
+    text-align: center;
+}
+.table-edit{
+    margin-bottom: 3rem;
+}
+.div-fim-edit{
+    margin-bottom: 3rem;
+}
+
+.th-edit{
+    font-weight: bold;
+    color: white;
+}
+
+.div-btn-pos-edit{
+    margin-bottom: 8rem;
+}

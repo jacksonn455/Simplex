@@ -17,16 +17,80 @@ header {
     color: #04B4AE;
 }
 
+#variaveis{
+    color: #fff;
+    font-weight: bold; 
+}
+
+.btn-edit{
+    background-color: #04B4AE !important;
+}
+
+.btn-edit:hover{
+    background-color: #04B4AE !important;
+    
+}
+
+.labelColor{
+    color: #fff;
+    font-weight: bold;
+}
+
+.active{
+    color: white !important;
+}
+
+.div-btn-pos-edit{
+    text-align: center;
+}
+
+.icon-config{
+    font-size: 1.2rem !important;
+}
+
+.select-dropdown{
+    text-align: center;
+    border: none !important;
+}
+
+.caret{
+    display: none;
+}
+
+label{
+    text-align: center !important; 
+}
+
+.h6-edit{
+    margin-bottom: 2rem;
+}
+
+.input-edit{
+    border-bottom: white solid 1px !important;
+}
+
 .projeto {
     margin-left: 0;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     padding-bottom: 40px;
     padding-top: 40px;
     font-size: 18px;
     color: white;
     text-align: justify;
     background: linear-gradient(#04B4AE 30%, #01DFD7);
+}
+
+.projetoDois {
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    background: linear-gradient( #01DFD7 30%, #04B4AE);
 }
 
 

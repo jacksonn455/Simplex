@@ -8,6 +8,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simplex.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -31,46 +32,19 @@
             </div>
     </header>
 
-    <main>
-        <section class="projeto">
-            <div class="container">
-                <form class="col s12">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <i class="material-icons prefix">trending_up</i>
-                            <input id="variaveis" type="text" class="validate input-edit">
-                            <label for="variaveis" class="labelColor">Quantidade de Variáveis</label>
-                        </div>
-
-                        <div class="input-field col s6">
-                            <i class="material-icons prefix">trending_down</i>
-                            <input id="restricao" type="tel" class="validate input-edit">
-                            <label for="restricao" class="labelColor">Quantidade de Restrições</label>
-                        </div>
-                        <div class="div-btn-pos-edit">
-                            <a class="waves-effect waves-light btn btn-edit" id='btn-apagar-um' href='index.html'><i
-                                    class="material-icons right">clear</i>Apagar</a>
-                            <a class="waves-effect waves-light btn btn-edit" id='btn-proximo-um'><i
-                                    class="material-icons right">send</i>Proximo</a>
-                        </div>
-
-                    </div>
-                </form>
+    <div class="container conteiner-edit" id='conteiner'>
+        <form id='form-ini' class="col s12 alinhar-form">
+            <div class="input-field col s6 inline-div" id="var-ini">
             </div>
-        </section>
+        </form>
+    </div>
 
-        <section class="container">
-            <form class="col s12" id="div-z">
-            </form>
-
-            <form class="col s12" id="div-a-calcular">
-            </form>
-
-            <div class="div-btn-pos-edit" id="div-bt-calc">
-            </div>
-        </section>
-
-    </main>
+    <div class="div-btn-pos-edit">
+        <a class="waves-effect waves-light btn btn-edit" id='btn-voltar'><i
+                class="material-icons left">keyboard_arrow_left</i>Voltar</a>
+        <a class="waves-effect waves-light btn btn-edit" id='btn-proximo'><i
+                class="material-icons right">keyboard_arrow_right</i>Proximo</a>
+    </div>
 
     <section class="projetoDois">
         <div class="div-btn-pos-edit">
@@ -89,7 +63,11 @@
     <script type="text/javascript" src="./materialize/js/materialize.min.js"></script>
     <script type="text/javascript" src="./js/mascara.js"></script>
     <script type="text/javascript" src="./js/criar.js"></script>
-    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/tabelas.js"></script>
+    <script type="text/javascript" src="./js/simplex.js"></script>
+    <script type="text/javascript" src="./js/calcularSimplex.js"></script>
+    <script type="text/javascript" src="./js/finalSimplex.js"></script>
+    
 </body>
 
 </html>

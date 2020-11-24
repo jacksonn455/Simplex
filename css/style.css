@@ -23,16 +23,17 @@ header {
 }
 
 .btn-edit{
-    background-color: #04B4AE !important;
+    background-color: #40E0D0!important;
 }
 
 .btn-edit:hover{
     background-color: #04B4AE !important;
+    color: white !important;
     
 }
 
 .labelColor{
-    color: #fff;
+    color: #fff !important;
     font-weight: bold;
 }
 
